@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'SPADelegateProxy'
-  s.version  = '0.0.10'
+  s.version  = '0.0.1'
   s.license  = 'MIT'
   s.summary  = 'A simple and flexible way to combine common obj-c delegate functionalities into one class'
   s.homepage = 'http://www.codebestowed.com/SPADelegateProxy'
@@ -18,6 +18,5 @@ Pod::Spec.new do |s|
 
   s.requires_arc    = true
   s.ios.xcconfig    = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"' }
-  s.osx.xcconfig    = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(DEVELOPER_LIBRARY_DIR)/Frameworks"' }
 end
 
