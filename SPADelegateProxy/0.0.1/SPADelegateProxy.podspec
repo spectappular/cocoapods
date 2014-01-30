@@ -17,6 +17,6 @@ Pod::Spec.new do |s|
   s.frameworks = 'Foundation'
 
   s.requires_arc    = true
-  s.platform = :ios, '5.0'
+  s.platform        = :ios, '7.0'
   s.ios.xcconfig    = { 'FRAMEWORK_SEARCH_PATHS' => '$(inherited) "$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"' }
 end
