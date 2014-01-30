@@ -1,0 +1,4 @@
+cocoapods
+=========
+
+CocoaPods spec repo
